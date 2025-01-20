@@ -355,6 +355,7 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CheckMate.cs"
 "Assets/Scripts/Chess.cs"
+"Assets/Scripts/DeathPlane.cs"
 "Assets/Scripts/DiscController.cs"
 "Assets/Scripts/Discs.cs"
 "Assets/Scripts/Door.cs"
