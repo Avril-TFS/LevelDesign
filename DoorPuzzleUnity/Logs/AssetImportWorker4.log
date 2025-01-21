@@ -15,7 +15,7 @@ C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-62571
+60806
 Successfully changed project path to: C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
 C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35484] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 3933557205 [EditorId] 3933557205 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [65176] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 2895227991 [EditorId] 2895227991 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [35484] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 3933557205 [EditorId] 3933557205 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [65176] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 2895227991 [EditorId] 2895227991 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 10.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007723 seconds.
-- Loaded All Assemblies, in  0.340 seconds
+Registered in 0.007370 seconds.
+- Loaded All Assemblies, in  0.311 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.261 seconds
-Domain Reload Profiling: 600ms
-	BeginReloadAssembly (82ms)
+- Finished resetting the current domain, in  0.233 seconds
+Domain Reload Profiling: 543ms
+	BeginReloadAssembly (75ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (79ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (74ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (119ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (261ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (234ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (203ms)
+		SetupLoadedEditorAssemblies (181ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (138ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.743 seconds
-Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.574 seconds
-Domain Reload Profiling: 1315ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1176ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
+		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (532ms)
-		LoadAssemblies (245ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (214ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (339ms)
-			TypeCache.Refresh (319ms)
-				TypeCache.ScanAssembly (306ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (574ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (554ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (431ms)
+		SetupLoadedEditorAssemblies (400ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3562.
-Memory consumption went from 117.2 MB to 117.1 MB.
-Total: 3.435800 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.877700 ms  DeleteObjects: 0.115500 ms)
+Memory consumption went from 117.1 MB to 117.1 MB.
+Total: 3.163600 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.084800 ms MarkObjects: 2.599900 ms  DeleteObjects: 0.123200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,260 +183,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 498982.424038 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(aa6af19f257015b4fa406e1f61cf69ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(aa6af19f257015b4fa406e1f61cf69ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb665bd7f89524a349753e6deda5b0a') in 0.045640 seconds
+  Time since last request: 545552.621195 seconds.
+  path: Assets/ImportedAssets/DungeonAssetPack/Prefabs/StructureParts
+  artifactKey: Guid(1e36a7be4a96f3f4686e65c235a4f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/DungeonAssetPack/Prefabs/StructureParts using Guid(1e36a7be4a96f3f4686e65c235a4f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc08641d2023355d666b02b3017b39f3') in 0.003305 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.764859 seconds.
-  path: Assets/Scenes/Level.unity
-  artifactKey: Guid(154e7b71198291f40a9a277fea09ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level.unity using Guid(154e7b71198291f40a9a277fea09ec85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6349443c4fffa6de1673668e394057d2') in 0.000839 seconds
+  Time since last request: 0.072989 seconds.
+  path: Assets/ImportedAssets/DungeonAssetPack/Prefabs/StructureParts/Big_Flat_Floor.prefab
+  artifactKey: Guid(d5f9d31939f283e4088c7d5e529827b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/DungeonAssetPack/Prefabs/StructureParts/Big_Flat_Floor.prefab using Guid(d5f9d31939f283e4088c7d5e529827b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a572349c78310f140a097c5c19cc4b1') in 0.125489 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 377
 ========================================================================
 Received Import Request.
-  Time since last request: 2.199713 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(2daab4ee3bb8e0346b0909ce123a6f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(2daab4ee3bb8e0346b0909ce123a6f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30eba620a8e734222e6fd210e13def58') in 0.000609 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportedAssets/DungeonAssetPack/Prefabs/StructureParts/Jail_Column.prefab
+  artifactKey: Guid(a5b211f73859b9842965c4130fcf7664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/DungeonAssetPack/Prefabs/StructureParts/Jail_Column.prefab using Guid(a5b211f73859b9842965c4130fcf7664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d81d0269b6a21b198a80ffb4fe1a3c') in 0.020120 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.561062 seconds.
-  path: Assets/Scenes/WhiteBox.unity
-  artifactKey: Guid(2daab4ee3bb8e0346b0909ce123a6f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/WhiteBox.unity using Guid(2daab4ee3bb8e0346b0909ce123a6f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e37d37f08b4dac250aa916fec78cbcf') in 0.000722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2659.170182 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Window.fbx
-  artifactKey: Guid(75dbf1ce1ab6fa245915e1c82ec3ca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Window.fbx using Guid(75dbf1ce1ab6fa245915e1c82ec3ca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21dfa93f478f817eeb35be2e82c77bd') in 0.322051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Wall.fbx
-  artifactKey: Guid(7b269b0c043c6b64e91c2b5b805af6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Wall.fbx using Guid(7b269b0c043c6b64e91c2b5b805af6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869c61fcf0c63b0961e373f77c8b7ee8') in 0.070029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.695730 seconds.
-  path: Assets/ImportedAssets/SimpleNaturePack/Models/Tree_04.fbx
-  artifactKey: Guid(83e8d2542718a2e49a73d71c3a5fc685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/SimpleNaturePack/Models/Tree_04.fbx using Guid(83e8d2542718a2e49a73d71c3a5fc685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b4135bd7a9561dcdfc23f1f5339caa') in 0.036273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.002985 seconds.
-  path: Assets/ImportedAssets/SimpleNaturePack/Models/Tree_03.fbx
-  artifactKey: Guid(69f0af3a0a6c73b4ab4b89eb82cdc488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/SimpleNaturePack/Models/Tree_03.fbx using Guid(69f0af3a0a6c73b4ab4b89eb82cdc488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524d403a75af196f5853ac4f020f597b') in 0.031745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.306864 seconds.
-  path: Assets/ImportedAssets/SimpleNaturePack/Models/Tree_01.fbx
-  artifactKey: Guid(6c7eaede4efc960409fb9ef2dfb77f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/SimpleNaturePack/Models/Tree_01.fbx using Guid(6c7eaede4efc960409fb9ef2dfb77f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f9744feb80387078c99985f131763f') in 0.047602 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/TowerS_Roof.fbx
-  artifactKey: Guid(1df7afe5278f2cc41b30944e4350404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/TowerS_Roof.fbx using Guid(1df7afe5278f2cc41b30944e4350404b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340fcc866eda4ad5c7633df76f909c67') in 0.079070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/TowerS.fbx
-  artifactKey: Guid(1c2afd8a01842314b95202eb6483114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/TowerS.fbx using Guid(1c2afd8a01842314b95202eb6483114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08556fa45f8f2ad79402fb3c51aa262') in 0.103144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 0.116229 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Tower3A.fbx
-  artifactKey: Guid(06ba67ce19f110b40aa2d61eedf9475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Tower3A.fbx using Guid(06ba67ce19f110b40aa2d61eedf9475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf58430e63c13e0e4811437acc236e77') in 0.109715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 0.199513 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Tower2A.fbx
-  artifactKey: Guid(8d68b9ee1c344254c850b9a34b2db3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Tower2A.fbx using Guid(8d68b9ee1c344254c850b9a34b2db3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f0294e1a6e3b660165c9270726dfe7') in 0.103366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Tower2_Roof.fbx
-  artifactKey: Guid(ade468ef87e3108409e13f190c6ceab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Tower2_Roof.fbx using Guid(ade468ef87e3108409e13f190c6ceab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feb5e01722571322aeaa2ec4eca8431') in 0.075340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 0.122025 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Tower2_Int.fbx
-  artifactKey: Guid(e02d13ebe1f68bd4b8a5ad6fd7c3cc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Tower2_Int.fbx using Guid(e02d13ebe1f68bd4b8a5ad6fd7c3cc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224bd6b721a7cbd63bf844b0d1952a98') in 0.073728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/1.fbx
-  artifactKey: Guid(11917502b49fe0249ad8f896b2b4ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/1.fbx using Guid(11917502b49fe0249ad8f896b2b4ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d28550a1c7780288247f18fdd5e5e64') in 0.035287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/tower1_Int.fbx
-  artifactKey: Guid(0badb7f1c2b412943ac75a0235299326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/tower1_Int.fbx using Guid(0badb7f1c2b412943ac75a0235299326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db4c4baf8b66d9766534381b54cfb2c') in 0.060065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.161268 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Tower1_A.fbx
-  artifactKey: Guid(f594161307bff944cafed9e44e5a19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Tower1_A.fbx using Guid(f594161307bff944cafed9e44e5a19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63cf6ab8b0381001c24986624347d28') in 0.072922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.675677 seconds.
-  path: Assets/ImportedAssets/3D Low-Poly Tables/Mesh/Table 2.fbx
-  artifactKey: Guid(3703dca2933d3664cb57dabe4b6b51ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/3D Low-Poly Tables/Mesh/Table 2.fbx using Guid(3703dca2933d3664cb57dabe4b6b51ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0166d678ac47a4cc30629a6eb525ca') in 0.036548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ImportedAssets/3D Low-Poly Tables/Mesh/Table 1.fbx
-  artifactKey: Guid(e312d20e08d445a499cd4756c0ae6be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/3D Low-Poly Tables/Mesh/Table 1.fbx using Guid(e312d20e08d445a499cd4756c0ae6be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01baec07b21086188055e8ceae050582') in 0.028622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Stairs.fbx
-  artifactKey: Guid(e405f5905a9abb54ea99958cd49aafe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Stairs.fbx using Guid(e405f5905a9abb54ea99958cd49aafe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0458f6533fc2209e628194fb26080905') in 0.054236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.003706 seconds.
-  path: Assets/ImportedAssets/Free Low Poly Chess Set/Queen/Mesh/queen.fbx
-  artifactKey: Guid(8d213db23e89f6b4fa3d427f07a32b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Free Low Poly Chess Set/Queen/Mesh/queen.fbx using Guid(8d213db23e89f6b4fa3d427f07a32b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bca2eb4c694d0fb44bb55aa614e157') in 0.033488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ImportedAssets/SimpleNaturePack/Models/Rock_01.fbx
-  artifactKey: Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/SimpleNaturePack/Models/Rock_01.fbx using Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939acb87212f130cbd0b28490b6a929e') in 0.030715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ImportedAssets/SimpleNaturePack/Models/Mushroom_01.fbx
-  artifactKey: Guid(d062f5c56ffb55c4f832432ada269abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/SimpleNaturePack/Models/Mushroom_01.fbx using Guid(d062f5c56ffb55c4f832432ada269abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebd77fa055eff33156af06491fd7815') in 0.046418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ImportedAssets/Free Low Poly Chess Set/King/Mesh/king.fbx
-  artifactKey: Guid(0d4dc18442ed9d14698239a5a964f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Free Low Poly Chess Set/King/Mesh/king.fbx using Guid(0d4dc18442ed9d14698239a5a964f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa2578fbf441ad787cebd43c03a0edc') in 0.028774 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Step.fbx
-  artifactKey: Guid(05f6b529cae78644e84f00ef03728924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Step.fbx using Guid(05f6b529cae78644e84f00ef03728924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffee41e081dd85bae56384c5fbfda6bb') in 0.042417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Gate_Door.fbx
-  artifactKey: Guid(b09c2276048aa8448ade47150205d704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Gate_Door.fbx using Guid(b09c2276048aa8448ade47150205d704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522c9bd94f83bd0fbaea9b4410de4cb3') in 0.061971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ImportedAssets/SimpleNaturePack/Models/Bush_02.fbx
-  artifactKey: Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/SimpleNaturePack/Models/Bush_02.fbx using Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf1acf04244c137f63009fb8c8d070') in 0.032644 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ImportedAssets/Free Low Poly Chess Set/Board/Mesh/board.fbx
-  artifactKey: Guid(ba44901e27656394a83c87ba14ddbdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Free Low Poly Chess Set/Board/Mesh/board.fbx using Guid(ba44901e27656394a83c87ba14ddbdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7713288649a8e113bf29d5c1a9ace862') in 0.023021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/ImportedAssets/Medieval Castle/Models/Door.fbx
-  artifactKey: Guid(f4ae7b6a37a276e4eb00d7448ab23a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Medieval Castle/Models/Door.fbx using Guid(f4ae7b6a37a276e4eb00d7448ab23a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e8157a7cf650beffdaba716f3f7452') in 0.060093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ImportedAssets/SimpleNaturePack/Models/Mushroom_02.fbx
-  artifactKey: Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/SimpleNaturePack/Models/Mushroom_02.fbx using Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3392bb1701fcc023027fa44a4a5590ae') in 0.047167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ImportedAssets/SimpleNaturePack/Models/Ground_01.fbx
-  artifactKey: Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/SimpleNaturePack/Models/Ground_01.fbx using Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f361af54c9b9a37fdd1a7f57896e7693') in 0.018580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 377
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
