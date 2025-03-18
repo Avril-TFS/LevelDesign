@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -39,9 +39,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1639
+    x: 1678
     y: 0
-    width: 281
+    width: 242
     height: 668
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 114
+  controlID: 101
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,8 +93,8 @@ MonoBehaviour:
     y: 0
     width: 274
     height: 668
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 115
+  controlID: 102
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 116
+  controlID: 103
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,7 +266,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274
     y: 0
-    width: 1365
+    width: 1404
     height: 668
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -356,7 +356,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ImportedAssets/Castle/Material/Plank
+    - Assets/ImportedAssets/Castle/Material/Concrete
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -364,16 +364,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/ImportedAssets/Castle/Material/Plank
+  - Assets/ImportedAssets/Castle/Material/Concrete
   m_LastFoldersGridSize: 64
   m_LastProjectPath: C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 154}
-    m_SelectedIDs: 9c740000
-    m_LastClickedID: 29852
-    m_ExpandedIDs: 00000000d871000066720000c0720000c4720000c87200009474000098740000a474000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 122}
+    m_SelectedIDs: 86720000
+    m_LastClickedID: 29318
+    m_ExpandedIDs: 00000000ea7100005a720000807200008272000086720000947200009c72000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -401,7 +401,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d8710000
+    m_ExpandedIDs: 00000000ea710000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,7 +429,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300005e6c0000086c00003e84000000000000165e0000a666000050780000de770000d07700006e690000
+    m_ExpandedInstanceIDs: c62300005e6c0000086c00003e840000165e0000a666000050780000de770000d07700006e69000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -477,9 +477,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1639
+    x: 1678
     y: 73
-    width: 280
+    width: 241
     height: 647
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -540,10 +540,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1214}
-      m_SelectedIDs: 1ae6ffff
-      m_LastClickedID: -6630
-      m_ExpandedIDs: 2efbffff825a0000ac5c0000b05e0000
+      scrollPos: {x: 0, y: 5006}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: b860ffffe27effff88bcffffa0bfffffc4c6ffff3ed4ffff2cd6ffffaae2ffffcce6ffff0cf3ffff74f8ffff2efbffff285a00008a5a0000da5b0000665d0000c25e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -589,7 +589,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274
     y: 73
-    width: 1363
+    width: 1402
     height: 647
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -936,9 +936,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.6855354, y: -63.62864, z: -119.49455}
+    m_Target: {x: 11.419491, y: -25.297928, z: -41.181736}
     speed: 2
-    m_Value: {x: -5.6855354, y: -63.62864, z: -119.49455}
+    m_Value: {x: 11.419491, y: -25.297928, z: -41.181736}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -984,13 +984,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.044421475, y: 0.9548604, z: -0.2320689, w: -0.18084487}
+    m_Target: {x: -0.37715855, y: -0.18956922, z: 0.08149159, w: -0.9032288}
     speed: 2
-    m_Value: {x: -0.044414986, y: 0.95472085, z: -0.23203498, w: -0.18081845}
+    m_Value: {x: -0.37839025, y: -0.18938522, z: 0.08174971, w: -0.9023696}
   m_Size:
-    m_Target: 73.56005
+    m_Target: 48.29455
     speed: 2
-    m_Value: 73.56005
+    m_Value: 46.21488
   m_Ortho:
     m_Target: 0
     speed: 2

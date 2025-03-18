@@ -15,7 +15,7 @@ C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61649
+50109
 Successfully changed project path to: C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
 C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [78268] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 2732996986 [EditorId] 2732996986 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9700] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 892861913 [EditorId] 892861913 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [78268] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 2732996986 [EditorId] 2732996986 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9700] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 892861913 [EditorId] 892861913 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 10.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,45 +69,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011338 seconds.
-- Loaded All Assemblies, in  0.471 seconds
+Registered in 0.011440 seconds.
+- Loaded All Assemblies, in  0.356 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.321 seconds
-Domain Reload Profiling: 789ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.314 seconds
+Domain Reload Profiling: 668ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (202ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (95ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (194ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (174ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (124ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (321ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (314ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (246ms)
+		SetupLoadedEditorAssemblies (250ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (170ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (171ms)
 			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -118,8 +118,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.861 seconds
-Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.762 seconds
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.762 seconds
-Domain Reload Profiling: 1621ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.597 seconds
+Domain Reload Profiling: 1357ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (608ms)
-		LoadAssemblies (344ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (530ms)
+		LoadAssemblies (300ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (329ms)
-			TypeCache.Refresh (310ms)
-				TypeCache.ScanAssembly (295ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (266ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (763ms)
+	FinalizeReload (598ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (591ms)
+		SetupLoadedEditorAssemblies (446ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (457ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 6.07 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3564.
+Unloading 31 unused Assets / (56.5 KB). Loaded Objects now: 3564.
 Memory consumption went from 117.5 MB to 117.5 MB.
-Total: 4.246400 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.079200 ms MarkObjects: 3.627500 ms  DeleteObjects: 0.140800 ms)
+Total: 4.459000 ms (FindLiveObjects: 0.515900 ms CreateObjectMapping: 0.117000 ms MarkObjects: 3.653200 ms  DeleteObjects: 0.170800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,67 +183,177 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 561375.012276 seconds.
-  path: Assets/Prefabs/Knight.prefab
-  artifactKey: Guid(c81a83e0ed34bf44bb4bae64f460ac66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Knight.prefab using Guid(c81a83e0ed34bf44bb4bae64f460ac66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1ddaed9d0215f5a2ea9c01fa3585b1') in 0.178365 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 417870.977254 seconds.
+  path: Assets/ImportedAssets/Castle/Models/Tower_1.fbx
+  artifactKey: Guid(111e490940fb9de46bcc88f858044203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Models/Tower_1.fbx using Guid(111e490940fb9de46bcc88f858044203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5819fa25eb0879661e738795a120b3e0') in 0.243082 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 589
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ImportedAssets/Castle/Models/Wall_Gate.fbx
+  artifactKey: Guid(b5c64d4ee9a2626499b011fd21b715b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Models/Wall_Gate.fbx using Guid(b5c64d4ee9a2626499b011fd21b715b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a190d98398d3920130e13373e985b7e3') in 0.095251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ImportedAssets/Castle/Models/Tower3.fbx
+  artifactKey: Guid(2f5aad003ae0afb48aab5cd46605fa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Models/Tower3.fbx using Guid(2f5aad003ae0afb48aab5cd46605fa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1ac5dd193c45223875780537201556') in 0.114856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ImportedAssets/Castle/Models/tower1_Int.fbx
+  artifactKey: Guid(0badb7f1c2b412943ac75a0235299326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Models/tower1_Int.fbx using Guid(0badb7f1c2b412943ac75a0235299326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db4c4baf8b66d9766534381b54cfb2c') in 0.077841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ImportedAssets/Castle/Models/Tower3A.fbx
+  artifactKey: Guid(06ba67ce19f110b40aa2d61eedf9475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Models/Tower3A.fbx using Guid(06ba67ce19f110b40aa2d61eedf9475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf58430e63c13e0e4811437acc236e77') in 0.117022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 33.006616 seconds.
+  path: Assets/ImportedAssets/Castle/Prefab/Gate_Door.prefab
+  artifactKey: Guid(9acb6ff1b83dffe4a9f6909714674574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Prefab/Gate_Door.prefab using Guid(9acb6ff1b83dffe4a9f6909714674574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4c396fc01d97d39f02bc163294468f') in 0.080383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedAssets/Castle/Prefab/Tower2_T2.prefab
+  artifactKey: Guid(dad4a38c42e646a45b2da5a4b983b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Prefab/Tower2_T2.prefab using Guid(dad4a38c42e646a45b2da5a4b983b3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda4e7ce1deceff662071599b7e972a7') in 0.067677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportedAssets/Castle/Prefab/Tower_1.prefab
+  artifactKey: Guid(3d264bce8652bb649ad59ee0c6a368cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Prefab/Tower_1.prefab using Guid(3d264bce8652bb649ad59ee0c6a368cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce763b43fc81aadfb0971bce72cbba0d') in 0.090174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ImportedAssets/Castle/Prefab/Tower3A_Int.prefab
+  artifactKey: Guid(b2b5b43868a7e5449a283fcdebb04a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Prefab/Tower3A_Int.prefab using Guid(b2b5b43868a7e5449a283fcdebb04a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87c6234a78a992597c8acb25938912a') in 0.066570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/Castle/Prefab/Tower2A.prefab
+  artifactKey: Guid(9f3e4d692b8a3f945a9a444d14ccd45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Prefab/Tower2A.prefab using Guid(9f3e4d692b8a3f945a9a444d14ccd45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5bea01951c7d791a35ab79d2b95ed9') in 0.088769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 14.710392 seconds.
+  path: Assets/ImportedAssets/Castle/Post_Process/table_mountain_1_4k.hdr
+  artifactKey: Guid(d2edc05a11f346249896c34f757aae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Post_Process/table_mountain_1_4k.hdr using Guid(d2edc05a11f346249896c34f757aae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a3d7141c426a419d010ccfcefee9c3') in 0.031794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.875688 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Ground/Ground003_4K_NormalGL.png
+  artifactKey: Guid(2e4e7a243f1376f4582bb22a56c304b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Ground/Ground003_4K_NormalGL.png using Guid(2e4e7a243f1376f4582bb22a56c304b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd7737863ad06005afb9b238aa143e8') in 0.031282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.446988 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Concrete/Concrete036D_AO.png
+  artifactKey: Guid(e739f9f29fb09d84a91cc26cceff61cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Concrete/Concrete036D_AO.png using Guid(e739f9f29fb09d84a91cc26cceff61cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66439b8e06e5500d91716cacc3ac8feb') in 0.026861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 133.798427 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Concrete/Materials
+  artifactKey: Guid(dcc77aad3dec1374fb813d5154c1c934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Concrete/Materials using Guid(dcc77aad3dec1374fb813d5154c1c934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b7625f5411473664082adf1e20c611') in 0.000633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.076785 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Concrete/Materials/Concrete036D_Albedo.mat
+  artifactKey: Guid(c014144c29074144e8f473b309c31503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Concrete/Materials/Concrete036D_Albedo.mat using Guid(c014144c29074144e8f473b309c31503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c257778ec387ea08d299e322206c9816') in 0.035746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.885 seconds
-Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.641 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.382 seconds
-Domain Reload Profiling: 2265ms
-	BeginReloadAssembly (188ms)
+- Finished resetting the current domain, in  0.890 seconds
+Domain Reload Profiling: 1528ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (603ms)
-		LoadAssemblies (321ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (223ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (362ms)
-			TypeCache.Refresh (357ms)
-				TypeCache.ScanAssembly (338ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (253ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1383ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (890ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (698ms)
+		SetupLoadedEditorAssemblies (408ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (548ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3576.
-Memory consumption went from 122.3 MB to 122.3 MB.
-Total: 5.200200 ms (FindLiveObjects: 0.395400 ms CreateObjectMapping: 0.083800 ms MarkObjects: 4.601100 ms  DeleteObjects: 0.118500 ms)
+Unloading 21 unused Assets / (29.9 KB). Loaded Objects now: 3614.
+Memory consumption went from 121.0 MB to 120.9 MB.
+Total: 3.178100 ms (FindLiveObjects: 0.426600 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.616800 ms  DeleteObjects: 0.053400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -260,119 +370,217 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2706.417743 seconds.
-  path: Assets/Prefabs/Knight.prefab
-  artifactKey: Guid(c81a83e0ed34bf44bb4bae64f460ac66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Knight.prefab using Guid(c81a83e0ed34bf44bb4bae64f460ac66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a2e38321c57cdb3acbbd099c5a6aba') in 0.097987 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 113.690663 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Rock
+  artifactKey: Guid(db05473db27860641859583cf747cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Rock using Guid(db05473db27860641859583cf747cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8090c069db2b7c997d6b0f74a0639f04') in 0.002561 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 589
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 8.918402 seconds.
-  path: Assets/Prefabs/Mage.prefab
-  artifactKey: Guid(a34d248c3638ee64e993f3e5f93c162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Mage.prefab using Guid(a34d248c3638ee64e993f3e5f93c162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c299568843002e3422e69b6021e51c36') in 0.032953 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.028571 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Rock/Rock042L_4K_AmbientOcclusion.png
+  artifactKey: Guid(300b4cb6d728d84429eb06e27338931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Rock/Rock042L_4K_AmbientOcclusion.png using Guid(300b4cb6d728d84429eb06e27338931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb660665da9dcf5111f46d8c85756dc') in 0.044480 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 262
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.079481 seconds.
-  path: Assets/Prefabs/Ranger.prefab
-  artifactKey: Guid(c871dcebe56c11e41971c16ea5af6dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ranger.prefab using Guid(c871dcebe56c11e41971c16ea5af6dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f9a9416a86ceaf809df7030c339ac5') in 0.088143 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Rock/Rock042L_4K_NormalDX.png
+  artifactKey: Guid(e5d56566720898c4aafe1c913a6e32cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Rock/Rock042L_4K_NormalDX.png using Guid(e5d56566720898c4aafe1c913a6e32cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b81a60f57e1e937fb784a844791d6a') in 0.032697 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 582
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.721975 seconds.
-  path: Assets/Prefabs/Ranger.prefab
-  artifactKey: Guid(c871dcebe56c11e41971c16ea5af6dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ranger.prefab using Guid(c871dcebe56c11e41971c16ea5af6dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7eac02c66b19062a94954bbcee6e3d') in 0.050134 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 7.599625 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Plank
+  artifactKey: Guid(e33fffa2de4495a4789770f72acd8f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Plank using Guid(e33fffa2de4495a4789770f72acd8f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95521ce4fed6fcc058c8b53b3a1de0ea') in 0.000727 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 582
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.748859 seconds.
-  path: Assets/Prefabs/Mage.prefab
-  artifactKey: Guid(a34d248c3638ee64e993f3e5f93c162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Mage.prefab using Guid(a34d248c3638ee64e993f3e5f93c162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86f2de83899b6e6cb3639c3f7aacce9') in 0.028859 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.043497 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Plank/Planks012_4K_AmbientOcclusion.png
+  artifactKey: Guid(1f42176fe98acd44eaa21ed72c5d406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Plank/Planks012_4K_AmbientOcclusion.png using Guid(1f42176fe98acd44eaa21ed72c5d406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c47acfc6a9843ea69ce4e7761fc6f3') in 0.022146 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 262
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 3.592792 seconds.
-  path: Assets/Prefabs/Mage.prefab
-  artifactKey: Guid(a34d248c3638ee64e993f3e5f93c162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Mage.prefab using Guid(a34d248c3638ee64e993f3e5f93c162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea07b34b93b7fcfc02319bafefd940f') in 0.029221 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Plank/Planks012_4K_Displacement.png
+  artifactKey: Guid(3d5ea97705cf30e44ae7576f294f26c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Plank/Planks012_4K_Displacement.png using Guid(3d5ea97705cf30e44ae7576f294f26c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae49c3962ee02840c6e7d728b0db76e3') in 0.018115 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 262
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.230348 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Rock2
+  artifactKey: Guid(c8321c35e5df68b4aa1a298eaa6cecec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Rock2 using Guid(c8321c35e5df68b4aa1a298eaa6cecec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43fa607530548dfdd66bc33fa1cc041') in 0.000703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053012 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Rock2/Rock012_2K_AmbientOcclusion.png
+  artifactKey: Guid(39e9b9445c3ab5741bfe0843a2ca2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Rock2/Rock012_2K_AmbientOcclusion.png using Guid(39e9b9445c3ab5741bfe0843a2ca2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3265b92350dd637b9c2621fd913869cb') in 0.017141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Rock2/Rock012_2K_NormalDX.png
+  artifactKey: Guid(68e6d7e8ac133ff4894e9c2f0d7f0fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Rock2/Rock012_2K_NormalDX.png using Guid(68e6d7e8ac133ff4894e9c2f0d7f0fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485c5fd13e184abfff2a758238bf5dde') in 0.016306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.873595 seconds.
+  path: Assets/ImportedAssets/Castle/Material/Ground/Materials
+  artifactKey: Guid(98e6f68088bef2249a479e491fdcf985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/Ground/Materials using Guid(98e6f68088bef2249a479e491fdcf985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9d9ea9db94b38d1a98c3c2d9aff17c') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.721115 seconds.
+  path: Assets/ImportedAssets/Castle/Material/roof
+  artifactKey: Guid(d133ce4690d5e6b4c99f34f738dc9348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/roof using Guid(d133ce4690d5e6b4c99f34f738dc9348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15238ec8a964114b60aa9955b9689b8a') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041266 seconds.
+  path: Assets/ImportedAssets/Castle/Material/roof/grey_roof_tiles_diff_4k.png
+  artifactKey: Guid(eced68fbab4b13f459eacfecc911bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/roof/grey_roof_tiles_diff_4k.png using Guid(eced68fbab4b13f459eacfecc911bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31547c6bb77a517b68d3ed77f373705') in 0.024597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.982545 seconds.
+  path: Assets/ImportedAssets/Castle/Material/wall
+  artifactKey: Guid(04f5b1172e38b2b47b03562fc697caf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/wall using Guid(04f5b1172e38b2b47b03562fc697caf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea251a21f7c1bdae9cc412e1f8f90c9') in 0.000748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055940 seconds.
+  path: Assets/ImportedAssets/Castle/Material/wall/wall3_Albedo.png
+  artifactKey: Guid(b29df6d4a55b5e04abe206bb757c8118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/wall/wall3_Albedo.png using Guid(b29df6d4a55b5e04abe206bb757c8118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e40c1f35097862b4582064a13dc8d12') in 0.025642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ImportedAssets/Castle/Material/wall/wall3_Normal.png
+  artifactKey: Guid(60c8e21f5fdab8d439199d5a86793e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/wall/wall3_Normal.png using Guid(60c8e21f5fdab8d439199d5a86793e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c407a984ddd29f61807c7a19150aa8f1') in 0.021840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.989347 seconds.
+  path: Assets/ImportedAssets/Castle/Material/wall/Materials
+  artifactKey: Guid(e6667ae9102a4514fa31f90686798c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/wall/Materials using Guid(e6667ae9102a4514fa31f90686798c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12d34c4d6f95fc779d2a93c56c09d10') in 0.000602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.920744 seconds.
+  path: Assets/ImportedAssets/Castle/Material/wall/Materials/wall3_Albedo.mat
+  artifactKey: Guid(c3eab8e628ab04d439e125c479174642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/wall/Materials/wall3_Albedo.mat using Guid(c3eab8e628ab04d439e125c479174642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6871ec17fd291bd40c20992d8af328c5') in 0.047607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.943569 seconds.
+  path: Assets/ImportedAssets/Castle/Material/wood
+  artifactKey: Guid(de9cbe0cb41aea3409dfc529f91af86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/wood using Guid(de9cbe0cb41aea3409dfc529f91af86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7feef29ddbe084ffb8eb2b55c79da98c') in 0.000717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061244 seconds.
+  path: Assets/ImportedAssets/Castle/Material/wood/wood_Albedo.png
+  artifactKey: Guid(df07ec0c5af9caa40b19f644d5daa3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/wood/wood_Albedo.png using Guid(df07ec0c5af9caa40b19f644d5daa3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37e58c59ab790b929305fad72b5e5b') in 0.017168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ImportedAssets/Castle/Material/wood/wood_Normal.png
+  artifactKey: Guid(8b9cd42fc686ea341b726f72654848ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Castle/Material/wood/wood_Normal.png using Guid(8b9cd42fc686ea341b726f72654848ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895a1c8228cc1f717f0cd5f0d8f9b268') in 0.017409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.795 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.655 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.177 seconds
-Domain Reload Profiling: 1969ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (512ms)
-		LoadAssemblies (310ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (246ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (294ms)
-			TypeCache.Refresh (290ms)
-				TypeCache.ScanAssembly (277ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (257ms)
+				TypeCache.ScanAssembly (244ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (1178ms)
+	FinalizeReload (935ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (538ms)
+		SetupLoadedEditorAssemblies (418ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (416ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3579.
-Memory consumption went from 122.4 MB to 122.4 MB.
-Total: 4.730000 ms (FindLiveObjects: 0.572400 ms CreateObjectMapping: 0.291700 ms MarkObjects: 3.751200 ms  DeleteObjects: 0.101500 ms)
+Unloading 21 unused Assets / (29.8 KB). Loaded Objects now: 3619.
+Memory consumption went from 121.0 MB to 121.0 MB.
+Total: 3.561300 ms (FindLiveObjects: 0.426400 ms CreateObjectMapping: 0.085100 ms MarkObjects: 2.988300 ms  DeleteObjects: 0.060200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -387,32 +595,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 275.749345 seconds.
-  path: Assets/ImportedAssets/Castle/Prefab/Assemble/Tower1_A.prefab
-  artifactKey: Guid(f47beff3889d4744cb3bae894e8ab668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Castle/Prefab/Assemble/Tower1_A.prefab using Guid(f47beff3889d4744cb3bae894e8ab668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f35e455bd8f1aef95058a55b3eee00') in 0.209824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 131
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/ImportedAssets/Castle/Prefab/Assemble/Tower3A.prefab
-  artifactKey: Guid(17170d843e5c823459b2a6a8be83c3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Castle/Prefab/Assemble/Tower3A.prefab using Guid(17170d843e5c823459b2a6a8be83c3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8469436d4d900378dde9bbd82b31ccf9') in 0.132171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 129
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/ImportedAssets/Castle/Prefab/Assemble/Tower2A.prefab
-  artifactKey: Guid(ef2893773df02174087f4aeaedb7774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ImportedAssets/Castle/Prefab/Assemble/Tower2A.prefab using Guid(ef2893773df02174087f4aeaedb7774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7687ff7f75c1dd69c952702bbd95ba') in 0.150697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 183
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
