@@ -1,0 +1,388 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65463 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker21
+-projectPath
+C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
+-logFile
+Logs/AssetImportWorker21.log
+-srvPort
+62018
+Successfully changed project path to: C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
+C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [44688] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 4122447104 [EditorId] 4122447104 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [44688] Host "[IP] 192.168.2.10 [Port] 0 [Flags] 2 [Guid] 4122447104 [EditorId] 4122447104 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B3QK9UJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 7.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sara/Documents/GitHub/LevelDesign/DoorPuzzleUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12086 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007580 seconds.
+- Loaded All Assemblies, in  0.308 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.234 seconds
+Domain Reload Profiling: 540ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (74ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (234ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sara\Documents\GitHub\LevelDesign\DoorPuzzleUnity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.817 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 1499ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (594ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (385ms)
+			TypeCache.Refresh (356ms)
+				TypeCache.ScanAssembly (334ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3470 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (122.2 KB). Loaded Objects now: 3942.
+Memory consumption went from 134.8 MB to 134.6 MB.
+Total: 3.413500 ms (FindLiveObjects: 0.336000 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.778600 ms  DeleteObjects: 0.205100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 512989.866871 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V5 (Runner)
+  artifactKey: Guid(4806230798cf58e45a868aff29e541f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V5 (Runner) using Guid(4806230798cf58e45a868aff29e541f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6308d05e078cf94e0664b81fae6d4900') in 0.003454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.370623 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V5 (Runner)/3DArt_Props_Carpet_Model_Amanda_V5.fbx
+  artifactKey: Guid(f4e098f3f5b746b4f8a4911e23cadb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V5 (Runner)/3DArt_Props_Carpet_Model_Amanda_V5.fbx using Guid(f4e098f3f5b746b4f8a4911e23cadb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cb279e8b5a878daafae29e54f19c9e') in 0.118169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 35.739380 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V5 (Runner)/T2
+  artifactKey: Guid(55bfa98766fad394c987c4824c7ddbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V5 (Runner)/T2 using Guid(55bfa98766fad394c987c4824c7ddbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10461697c77f9effbd235baa08f2692a') in 0.000608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.223491 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V5 (Runner)/T2/3DArt_Props_Carpet_Model_Amanda_V5_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(2d8da56dbc28aa042af2da1ae1697c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V5 (Runner)/T2/3DArt_Props_Carpet_Model_Amanda_V5_DefaultMaterial_BaseMap.png using Guid(2d8da56dbc28aa042af2da1ae1697c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3ad68030a90aee65861792b676df93') in 0.027502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.861228 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V4 (With Bump)
+  artifactKey: Guid(aba61a57e52dc794cb0e22f9d71c66bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V4 (With Bump) using Guid(aba61a57e52dc794cb0e22f9d71c66bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1144cbf8be76070c3c1ac39d267b70') in 0.000595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.121041 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V3 (Round)
+  artifactKey: Guid(8e8d8b285b4388045ad2b20928677529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V3 (Round) using Guid(8e8d8b285b4388045ad2b20928677529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14839313b0e6cf09284e6f2e80cb155') in 0.000509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.233951 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V5 (Runner)/T1
+  artifactKey: Guid(5a28afbaefe6880418eb33b865d50ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V5 (Runner)/T1 using Guid(5a28afbaefe6880418eb33b865d50ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb9d15e144866a29d910bdcdeef2fc1') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078196 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V5 (Runner)/T1/3DArt_Props_Carpet_Model_Amanda_V5_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(c7a22a8e4897da14c90c283b2f4b8fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V5 (Runner)/T1/3DArt_Props_Carpet_Model_Amanda_V5_DefaultMaterial_BaseMap.png using Guid(c7a22a8e4897da14c90c283b2f4b8fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6915d41687915350af42f1e6fa604aab') in 0.021096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.762446 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V1 (Rectangular)
+  artifactKey: Guid(121f588760f6c414c89f55fa89c9a68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V1 (Rectangular) using Guid(121f588760f6c414c89f55fa89c9a68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5816c73474c8cc9e554ad4332bc03f7f') in 0.000602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.610877 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V1 (Rectangular)/3DArt_Props_Carpet_Amanda_V1.fbx
+  artifactKey: Guid(c2ac6e3f795eab34781b6044d801851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V1 (Rectangular)/3DArt_Props_Carpet_Amanda_V1.fbx using Guid(c2ac6e3f795eab34781b6044d801851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d387c06b4dfac7ee044134ceed2f94') in 0.033302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 18.961225 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V1 (Rectangular)/T1
+  artifactKey: Guid(3b7abb7ed978e954799e6722e216bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V1 (Rectangular)/T1 using Guid(3b7abb7ed978e954799e6722e216bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51898e23fd7b24dcd1bd5d15ac89a114') in 0.000591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.535551 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V1 (Rectangular)/T1/3DArt_Props_Carpet_Amanda_V1_DefaultMaterial_BaseMap 1.png
+  artifactKey: Guid(1a6fc50ea28f94e498fed98bb611ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V1 (Rectangular)/T1/3DArt_Props_Carpet_Amanda_V1_DefaultMaterial_BaseMap 1.png using Guid(1a6fc50ea28f94e498fed98bb611ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5669852114bb18f22902876d919a7d3b') in 0.020767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 28.341784 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V2 (Square)
+  artifactKey: Guid(c39b542a57680154387db2097505148d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V2 (Square) using Guid(c39b542a57680154387db2097505148d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7541640c447238877e94c3747efa2113') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.641280 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V2 (Square)/3DArt_Props_Carpet_Model_Amanda_V2.fbx
+  artifactKey: Guid(e0ebbf0e315241446ae445fba2452973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V2 (Square)/3DArt_Props_Carpet_Model_Amanda_V2.fbx using Guid(e0ebbf0e315241446ae445fba2452973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3680269af0d371f2ac702cbe61b80f22') in 0.032879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 22.027721 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V2 (Square)/T3
+  artifactKey: Guid(525fe8221de42484dbf690849b0f676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V2 (Square)/T3 using Guid(525fe8221de42484dbf690849b0f676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cd63be02f2b1a852451d8c93d2937c') in 0.000569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.089243 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V2 (Square)/T3/3DArt_Props_Carpet_Amanda_V2_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(2768c9b5474810940becb0c533278826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V2 (Square)/T3/3DArt_Props_Carpet_Amanda_V2_DefaultMaterial_BaseMap.png using Guid(2768c9b5474810940becb0c533278826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e33fc734a5423ebbf940628899896bd') in 0.019632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.651611 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V4 (With Bump)/3DArt_Props_Carpet_Model_Amanda_V4.fbx
+  artifactKey: Guid(ebb33c31bf1f5e94e98df14803e683f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V4 (With Bump)/3DArt_Props_Carpet_Model_Amanda_V4.fbx using Guid(ebb33c31bf1f5e94e98df14803e683f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd196ef75f687faed5b916e9d4e97281') in 0.030378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 35.710813 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V4 (With Bump)/T3
+  artifactKey: Guid(c5342b5d414ae7a44b9a0958c9c77e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V4 (With Bump)/T3 using Guid(c5342b5d414ae7a44b9a0958c9c77e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0710083a88ae0ef58bc7699b9a95dee1') in 0.000593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067344 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V4 (With Bump)/T3/3DArt_Props_Carpet_Model_Amanda_V4_DefaultMaterial_BaseMap.png
+  artifactKey: Guid(26c89a5fac5874244951f1fec31effeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V4 (With Bump)/T3/3DArt_Props_Carpet_Model_Amanda_V4_DefaultMaterial_BaseMap.png using Guid(26c89a5fac5874244951f1fec31effeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4c1c7d91c3eb70f1a83ca2b46b0591') in 0.018675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Props/Carpet/Carpet V4 (With Bump)/T3/3DArt_Props_Carpet_Model_Amanda_V4_DefaultMaterial_Normal.png
+  artifactKey: Guid(9114412e6180baf498a1c97d4252a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Props/Carpet/Carpet V4 (With Bump)/T3/3DArt_Props_Carpet_Model_Amanda_V4_DefaultMaterial_Normal.png using Guid(9114412e6180baf498a1c97d4252a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dfa94c37d30dcf905483af994b4bba') in 0.025738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 162.346066 seconds.
+  path: Assets/ImportedAssets
+  artifactKey: Guid(a1328332dc654e146a8fe0853ffd665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets using Guid(a1328332dc654e146a8fe0853ffd665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1d5eef3645b9a49a5a1a3574bd8d7b') in 0.000732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.863371 seconds.
+  path: Assets/ImportedAssets/Tree9
+  artifactKey: Guid(6d610395d8542894b84e115dd3f59b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Tree9 using Guid(6d610395d8542894b84e115dd3f59b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f56319a95875c2f40a19816756a23da') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.652355 seconds.
+  path: Assets/ImportedAssets/Tree9/bark14.mat
+  artifactKey: Guid(760ea8238d6219c42b2739f693d4c834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Tree9/bark14.mat using Guid(760ea8238d6219c42b2739f693d4c834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dae4ef6cb0f97c123aa73df372e92e5') in 0.286659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedAssets/Tree9/Tree9_2.prefab
+  artifactKey: Guid(be878d9ea17907f4a8068678a5ce7908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Tree9/Tree9_2.prefab using Guid(be878d9ea17907f4a8068678a5ce7908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551a02dd551eac27526720ca8c720509') in 0.436416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedAssets/Tree9/Tree9_leafs.mat
+  artifactKey: Guid(da780beb78a91484aa965294e12f428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Tree9/Tree9_leafs.mat using Guid(da780beb78a91484aa965294e12f428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34756da5882d53eea7ea69e14ac8335') in 0.189447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

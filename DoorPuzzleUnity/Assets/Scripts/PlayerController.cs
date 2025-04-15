@@ -6,6 +6,12 @@ public class PlayerController : MonoBehaviour
 {
 
     public float moveSpeed = 5.0f;
+    public float jumpForce = 7f;
+    public float hoverForce = 2f;
+    public Transform groundCheck;
+    public float groundDistance = .4f;
+    public LayerMask groundMask;
+    public bool isGrounded;
     private Rigidbody rgbd;
     public Camera playerCamera;
 
@@ -23,7 +29,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rgbd.velocity = new Vector3(rgbd.velocity.x, jumpForce, rgbd.velocity.z);
+        }
     }
     void FixedUpdate()
     {
@@ -31,10 +42,12 @@ public class PlayerController : MonoBehaviour
         float verticalMovement = Input.GetAxis("Vertical");
 
         Vector3 moveDirection = (transform.forward * verticalMovement) + (transform.right * horizontalMovement);
+        Vector3 currentVelocity = rgbd.velocity;
 
         Vector3 movement = moveDirection.normalized * moveSpeed;
-        rgbd.velocity = new Vector3(movement.x, rgbd.velocity.y, movement.z);
+        rgbd.velocity = new Vector3(movement.x, currentVelocity.y, movement.z);
 
+        rgbd.AddForce(Vector3.up * hoverForce, ForceMode.Acceleration);
     }
 
     public void HasKeyOne()
